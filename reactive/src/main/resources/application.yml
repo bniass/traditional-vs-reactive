@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: reactive
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/client_test
+    username: postgres
+    password: passer
+
+  #sql:
+    #init:
+     # platform: postgres
+      #schema-locations: classpath:sql/client.sql
+      #mode: always
+
+server:
+  port: 8093
